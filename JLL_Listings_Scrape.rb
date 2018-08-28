@@ -22,7 +22,8 @@ module DataSourcing
 		end
 		body = response.body
 		# bulk of returned data for request
-		
+		json_return = JSON.parse body
+		# json info returned from response(getRequest)
 
 
 
